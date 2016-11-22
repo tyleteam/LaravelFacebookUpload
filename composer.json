@@ -1,0 +1,25 @@
+{
+    "name": "tyleteam/laravel-facebook-upload",
+    "description": "facebook image upload provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tyleteam",
+            "email": "contact@tyle.io"
+        }
+    ],
+    "require": {
+    	"php": ">=5.5.0",
+    	"facebook/graph-sdk": "^5.0",
+    	"sammyk/laravel-facebook-sdk": "^3.0",
+    	"guzzlehttp/guzzle": "~5.3|~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tyleteam\\LaravelFacebookUpload\\": "src"
+        }
+    },
+      "branch-alias": {
+          "dev-master": "1.x-dev"
+      }
+}
